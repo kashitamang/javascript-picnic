@@ -10,6 +10,9 @@ console.log(soda, cheese, grapes, bread, watermelon);
 //add event listeners for clicking on each elements
 
 soda.addEventListener('click', () => {
-    soda.classList.picked('picked');
+    soda.classList.toggle('picked');
 });
 
+cheese.addEventListener('click', () => {
+    cheese.classList.toggle('picked');
+});
