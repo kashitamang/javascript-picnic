@@ -24,3 +24,7 @@ grapes.addEventListener('click', () => {
 bread.addEventListener('click', () => {
     bread.classList.toggle('picked');
 });
+
+watermelon.addEventListener('click', () => {
+    watermelon.classList.toggle('picked');
+});
