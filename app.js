@@ -20,3 +20,7 @@ cheese.addEventListener('click', () => {
 grapes.addEventListener('click', () => {
     grapes.classList.toggle('picked');
 });
+
+bread.addEventListener('click', () => {
+    bread.classList.toggle('picked');
+});
