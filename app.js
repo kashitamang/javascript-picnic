@@ -13,22 +13,24 @@ const button = document.getElementById('button');
 soda.addEventListener('click', () => {
     soda.classList.toggle('picked');
 });
-//commit
+// //commit
 
 cheese.addEventListener('click', () => {
     cheese.classList.toggle('picked');
 });
-//commit
+// //commit
 
 grapes.addEventListener('click', () => {
     grapes.classList.toggle('picked');
 });
-//commit
+
+// //commit
 
 bread.addEventListener('click', () => {
     bread.classList.toggle('picked');
 });
-//commit
+
+// //commit
 
 watermelon.addEventListener('click', () => {
     watermelon.classList.toggle('picked');
@@ -54,3 +56,28 @@ button.addEventListener('click', () => {
     }
 });
 
+//add a drag and drop event listener 
+
+soda.addEventListener('drag', () => {
+    soda.classList.toggle('picked');
+});
+//commit
+
+cheese.addEventListener('drag', () => {
+    cheese.classList.toggle('picked');
+});
+//commit
+
+grapes.addEventListener('drag', () => {
+    grapes.classList.toggle('picked');
+});
+//commit
+
+bread.addEventListener('drag', () => {
+    bread.classList.toggle('picked');
+});
+//commit
+
+watermelon.addEventListener('drag', () => {
+    watermelon.classList.toggle('picked');
+});

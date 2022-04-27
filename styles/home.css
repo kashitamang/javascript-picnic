@@ -23,4 +23,5 @@
 
 .picked {
     transform: translateY(125px);
+    transition: .2s;
 }
