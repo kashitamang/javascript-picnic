@@ -16,3 +16,7 @@ soda.addEventListener('click', () => {
 cheese.addEventListener('click', () => {
     cheese.classList.toggle('picked');
 });
+
+grapes.addEventListener('click', () => {
+    grapes.classList.toggle('picked');
+});
